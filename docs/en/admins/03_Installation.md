@@ -21,3 +21,9 @@ Before you begin, make sure that you've read the [prerequisites](02_Prerequisite
 [^2]: If you wish to allow updates from the web interface, also give group write permissions to this folder.
 
 [^3]: Assuming your server is `http://example.net`, this address could be `http://example.net/p/` if you didn't follow our previous advice about not exposing the `./p/` folder.
+
+# Docker Container Installation
+
+It is possible to install a containerized version of FreshRSS. Please note that the hub.docker.`freshrss/freshrss` contains the official  version of FreshRSS, and this container is different from the version of `linuxserver/freshrss`.
+
+The installation instructions for installing a dockerized version of FreshRSS are available [here](https://github.com/FreshRSS/FreshRSS/blob/master/Docker/README.md).
